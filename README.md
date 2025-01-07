@@ -104,7 +104,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est√
 
 <figure>
     <div align="center" width="80%">
-    <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso05.png" alt=""/>
+    <img width="60%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso05.png" alt=""/>
     <br />
     <figure-caption>Figura 5. Abrir la carpeta en un contenedor de desarrollo. Esta opci√≥n abrir√° y ejectura el contenedor de desarrollo de la asignatura.</figure-caption>
     </div>
@@ -116,7 +116,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est√
 
 <figure>
     <div align="center" width="80%">
-        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso06.png" alt=""/>
+        <img width="60%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso06.png" alt=""/>
         <br />
         <figure-caption>Figura 6. En la esquina inferior derecha VS Code muestra el estado de preparaci√≥n del ambiente de desarrollo.</figure-caption>
     </div>
