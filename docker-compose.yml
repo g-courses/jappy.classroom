@@ -1,0 +1,15 @@
+services:
+  jappy:
+    platform: linux/amd64
+    image: gastudil/courses:jappy-latest
+    container_name: dev-jappy
+    hostname: dev-jappy
+    ports:
+      - 8888:8888
+    volumes:
+      - ./workspace:/home/devuser/workspace
+    networks:
+      - back_net
+
+networks:
+  back_net:
