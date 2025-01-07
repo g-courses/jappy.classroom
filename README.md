@@ -99,7 +99,7 @@ Partiendo del paso 2) de la sección 1.2), abra un terminal en la carpeta `jappy
      <div align="center" width="80%">
         <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter01.png" alt=""/>
         <br />
-        <figure-caption>Figura 1.3.1. Terminal abierto en la carpeta `jappy.classroom` del repositorio clonado en el punto 1.2).</figure-caption>
+        <figure-caption>Figura 1.3.1. Terminal abierto en la carpeta *jappy.classroom* del repositorio clonado en el punto 1.2).</figure-caption>
     </div>
 </figure>
 
@@ -133,7 +133,7 @@ Luego, ingrese al directorio `workspace/notebook-examples` y seleccione el archi
 
 <figure>
      <div align="center" width="80%">
-        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter04.png" alt=""/>
+        <img width="100%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter04.png" alt=""/>
         <br />
         <figure-caption>Figura 1.3.4. Cuaderno Jupyter de prueba.</figure-caption>
     </div>
