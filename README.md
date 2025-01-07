@@ -141,7 +141,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 </details>
 
-## Prueba de funcionamiento del intérprete Python del contenedor de desarrollo
+## Prueba de funcionamiento del intérprete Python del contenedor de desarrollo con VS Code
 
 <details>
 <summary>Mostrar</summary>
