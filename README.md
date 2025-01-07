@@ -88,10 +88,19 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est√
 
 </details>
 
-### 1.3) Uso de VS Code para iniciar el contenedor
+### 1.3) Uso del contenedor con Jupyter Lab
 
 <details>
 <summary>Mostrar</summary>
+
+</details>
+
+### 1.4) Uso del contenedor con VS Code
+
+<details>
+<summary>Mostrar</summary>
+
+En este caso, el software `VS Code` inicia el contenedor revisando el contenido del archivo `.devcontainer.json` y `docker-compose.yml`.
 
 1) En el explorador de archivos, seleccione `Abrir con VS Code` en el men√∫ contextual de la carpeta `codes_examples`.
 
