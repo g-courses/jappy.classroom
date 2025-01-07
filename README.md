@@ -76,8 +76,6 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est√
 
 <br />
 
-</details>
-
 3) En el explorador de archivos, seleccione `Abrir con VS Code` en el men√∫ contextual de la carpeta `codes_examples`.
 
 <figure>
