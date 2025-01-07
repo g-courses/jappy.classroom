@@ -1,9 +1,9 @@
 # JAPPY: Educational resource for programming classes in  Java,  C++ and Python
 
 
-## Implantación del ambiente de desarrollo
+## 1) Implantación del ambiente de desarrollo
 
-### Software base
+### 1.1) Software base
 
 <details>
 <summary>Mostrar</summary>
@@ -38,7 +38,7 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando `VS Code` c
 
 </details>
 
-### Instalación del contenedor de desarrollo 
+### 1.2) Instalación del contenedor de desarrollo 
 
 <details>
 <summary>Mostrar</summary>
@@ -88,7 +88,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 </details>
 
-### Uso de VS Code para iniciar el contenedor
+### 1.3) Uso de VS Code para iniciar el contenedor
 
 <details>
 <summary>Mostrar</summary>
@@ -156,7 +156,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 </details>
 
-## Prueba de funcionamiento del contenedor de desarrollo con Jupyter Lab
+## 2) Prueba de funcionamiento del contenedor de desarrollo con Jupyter Lab
 
 <details>
 <summary>Mostrar</summary>
@@ -164,7 +164,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 </details>
 
 
-## Prueba de funcionamiento del icontenedor de desarrollo con VS Code
+## 3) Prueba de funcionamiento del icontenedor de desarrollo con VS Code
 
 <details>
 <summary>Mostrar</summary>
@@ -190,7 +190,7 @@ El contenedor de desarrollo tiene todo lo necesario para el desarrollo de la asi
 
 </details>
 
-## Selección de kernel
+## 4) Selección de kernel
 
 <details>
 <summary>Mostrar</summary>
