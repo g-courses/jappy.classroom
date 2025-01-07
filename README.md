@@ -79,7 +79,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 <figure>
      <div align="center" width="80%">
-        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso03.png" alt=""/>
+        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso03.png" alt=""/>
         <br />
         <figure-caption>Figura 3. Selección opción "Abrir con VS Code" en el caso de MacOSX.</figure-caption>
     </div>
