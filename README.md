@@ -150,10 +150,11 @@ Para detener el contenedor, debe ingresar el comando `docker compose down`.
 
 ### 1.4) Uso del contenedor con VS Code
 
+En este caso, el software `VS Code` inicia el contenedor revisando el contenido del archivo `.devcontainer.json` y `docker-compose.yml`.
+
 <details>
 <summary>Mostrar</summary>
 
-En este caso, el software `VS Code` inicia el contenedor revisando el contenido del archivo `.devcontainer.json` y `docker-compose.yml`.
 
 1) En el explorador de archivos, seleccione `Abrir con VS Code` en el menú contextual de la carpeta `codes_examples`.
 
