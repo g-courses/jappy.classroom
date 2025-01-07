@@ -169,6 +169,8 @@ El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asig
 
 ## Selección de kernel
 
+<details>
+<summary>Mostrar</summary>
 
 Para seleccionar un kernel, debe hacer click en el botón `Seleccionar el kernel` en el sector superior derecho de VS Code. Tras seleccionar `Servidor de Jupyter existente`, se debe ingresar la URL del servidor jupyter instalado en el contenedor (`http://localhost:8888`). Debido a que esta es una dirección no segura, se debe aceptar explícitamente la conexión. Estos pasos se muestran en la Figura A.
 
@@ -206,3 +208,4 @@ Finalmente, se selecciona el kernel a utilizar.
 
 Una vez finalizado esto pasos, los otros kernels se pueden seleccionar escogiendo el servidor `jappy_server` creado.
 
+</details>
