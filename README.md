@@ -6,7 +6,7 @@
 ### Software base
 
 <details>
-###<summary>Mostrar</summary>
+<summary>Mostrar</summary>
 
 Los ejemplos y las tareas de la asignatura se realizarán utilizando `VS Code` como herramienta de desarrollo y Docker como tecnología de infraestructura. Para lograr esto, en su computador deberá instalar:
 
