@@ -143,6 +143,9 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 ## Prueba de funcionamiento del intérprete Python del contenedor de desarrollo
 
+<details>
+<summary>Mostrar</summary>
+
 El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asignatura: compiladores de `C++`, `Java` e intérprete de `Python`. Además, tiene los complementos de `VS Code` para facilitar la codificación en estos lenguajes. Se debe destacar que **no es necesario que estas herramientas estén instaladas en su computador**. Esto ya está resuelto a nivel del contenedor de desarrollo.
 
 1) Seleccione la carpeta `notebook-examples` y luego el archvo `python_nb.ipynb`, tal como se muestra en la Figura 8.
@@ -162,6 +165,7 @@ El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asig
 
 3) Finalmente, presione `Ejecutar todo`. El cuaderno Jupyter debe mostrar un mensaje `Hola mundo`, un grafico sencillo y un diagrama UML. Si lo anterior se cumple, el servidor Jupyter está operando y su ambiente de desarrollo esta listo.
 
+</details>
 
 ## Selección de kernel
 
