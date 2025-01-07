@@ -8,6 +8,9 @@
 
 ### Software base
 
+<details>
+<summary>Mostrar</summary>
+
 Los ejemplos y las tareas de la asignatura se realizarán utilizando `VS Code` como herramienta de desarrollo y Docker como tecnología de infraestructura. Para lograr esto, en su computador deberá instalar:
 
 * [VS Code](https://code.visualstudio.com)
@@ -36,7 +39,15 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando `VS Code` c
 >- Salvar como  `Abrir en VS Code`
 ></details>
 
+</details>
+
 ### Instalación del contenedor de desarrollo 
+
+<details>
+<summary>Mostrar</summary>
+
+Para instalar el contenedor de desarrollo, es suficiente tener los archivos `.devcontainer.json` y `docker-compose.yml` dentro de una carpeta. Este ejemplo muestra la obtención de estos archivos a través de la clonación de un repositorio determinado.
+
 1) Crear una carpeta y abrir un terminal dentro de esa carpeta:
 
 <figure>
@@ -78,7 +89,14 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 <br />
 
-3) En el explorador de archivos, seleccione `Abrir con VS Code` en el menú contextual de la carpeta `codes_examples`.
+</details>
+
+### Uso de VS Code para iniciar el contenedor
+
+<details>
+<summary>Mostrar</summary>
+
+1) En el explorador de archivos, seleccione `Abrir con VS Code` en el menú contextual de la carpeta `codes_examples`.
 
 <figure>
      <div align="center" width="80%">
@@ -91,7 +109,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 <br />
 
 
-4) Una vez que `VS Code` se ejecute, mostrará un aviso como el de la Figura 4. Seleccione **Volver a abrir en el contenedor**.
+2) Una vez que `VS Code` se ejecute, mostrará un aviso como el de la Figura 4. Seleccione **Volver a abrir en el contenedor**.
 
 <figure>
     <div align="center" width="80%">
@@ -103,7 +121,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 <br />
 
-5) Si el aviso anterior desaparece, entonces seleccione el complemento "Explorador remoto" y abra la carpeta en el contenedor de desarrollo de la asignatura.
+3) Si el aviso anterior desaparece, entonces seleccione el complemento "Explorador remoto" y abra la carpeta en el contenedor de desarrollo de la asignatura.
 
 <figure>
     <div align="center" width="80%">
@@ -115,7 +133,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 <br />
 
-6) Una vez realizado el paso 4 o 5, `VS Code` pasa por distinto estados, tal como muestran en la Figura 6. El primer paso la primera vez se puede demorar debido a que tiene que bajar la imagen del contenedor, cuyo tamaño es de aproximadamente 7 GB.
+4) Una vez realizado el paso 4 o 5, `VS Code` pasa por distinto estados, tal como muestran en la Figura 6. El primer paso la primera vez se puede demorar debido a que tiene que bajar la imagen del contenedor, cuyo tamaño es de aproximadamente 7 GB.
 
 <figure>
     <div align="center" width="80%">
@@ -127,7 +145,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 <br />
 
-7) Una vez que la imagen está configurada, `VS Code` tendrá una apariencia similar a la que se muestra en la Figura 7.
+5) Una vez que la imagen está configurada, `VS Code` tendrá una apariencia similar a la que se muestra en la Figura 7.
 
 <figure>
     <div align="center" width="100%">
@@ -141,7 +159,15 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 </details>
 
-## Prueba de funcionamiento del intérprete Python del contenedor de desarrollo con VS Code
+## Prueba de funcionamiento del contenedor de desarrollo con Jupyter Lab
+
+<details>
+<summary>Mostrar</summary>
+
+</details>
+
+
+## Prueba de funcionamiento del icontenedor de desarrollo con VS Code
 
 <details>
 <summary>Mostrar</summary>
