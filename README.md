@@ -15,7 +15,7 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando `VS Code` c
 * [GitHub CLI](https://github.com/cli/cli#installation) *(Opcional)*
 
 
-**Observación**: Se recomienda que en la instalación de VS Code, se seleccione la opción **Agregar opción Abrir con VS Code** a archivos y directorios. Esta opción está sólo disponible en forma nativa para la versión de Windows. Si utiliza MacOSX, deberá seguir las instrucciones que se detallan a continuación.
+**Observación**: Se recomienda que en la instalación de `VS Code`, se seleccione la opción **Agregar opción Abrir con VS Code** a archivos y directorios. Esta opción está sólo disponible en forma nativa para la versión de Windows. Si utiliza MacOSX, deberá seguir las instrucciones que se detallan a continuación.
 
 ><details>
 ><summary>Opción "Abrir en VS Code" en MacOSX</summary>
@@ -146,7 +146,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 <details>
 <summary>Mostrar</summary>
 
-El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asignatura: compiladores de `C++`, `Java` e intérprete de `Python`. Además, tiene los complementos de `VS Code` para facilitar la codificación en estos lenguajes. Se debe destacar que **no es necesario que estas herramientas estén instaladas en su computador**. Esto ya está resuelto a nivel del contenedor de desarrollo.
+El contenedor de desarrollo tiene todo lo necesario para el desarrollo de la asignatura: compiladores de `C++`, `Java` e intérprete de `Python`. Además, tiene los complementos de `VS Code` para facilitar la codificación en estos lenguajes. Se debe destacar que **no es necesario que estas herramientas estén instaladas en su computador**. Esto ya está resuelto a nivel del contenedor de desarrollo.
 
 1) Seleccione la carpeta `notebook-examples` y luego el archvo `python_nb.ipynb`, tal como se muestra en la Figura 8.
 
