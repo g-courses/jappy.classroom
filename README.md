@@ -3,9 +3,6 @@
 
 ## Implantación del ambiente de desarrollo
 
-<details>
-<summary>Mostrar</summary>
-
 ### Software base
 
 <details>
