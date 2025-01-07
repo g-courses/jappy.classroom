@@ -51,7 +51,7 @@ Para instalar el contenedor de desarrollo, es suficiente tener los archivos `.de
     <div align="center" width="80%">
         <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso01.png" alt=""/>
         <br />
-        <figure-caption>Figura 1. Ejemplo de creación de carpeta "clases" y el terminal respectivo.</figure-caption>
+        <figure-caption>Figura 1.2.1 Ejemplo de creación de carpeta "clases" y el terminal respectivo.</figure-caption>
     </div>
 </figure>
 
@@ -67,7 +67,7 @@ git clone https://github.com/g-courses/jappy.classroom.git
     <div align="center" width="80%">
         <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso02-01.png" alt=""/>
         <br />
-        <figure-caption>Figura 2a. Clonación a través del comando git.</figure-caption>
+        <figure-caption>Figura 1.2.2a Clonación a través del comando git.</figure-caption>
     </div>    
 </figure>
 
@@ -80,7 +80,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
     <div align="center" width="80%">
         <img width="60%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso02-02.png" alt=""/>
         <br />
-        <figure-caption>Figura 2b. Verificación de los archivos de configuración del ambiente de desarrollo.</figure-caption>
+        <figure-caption>Figura 1.2.2b Verificación de los archivos de configuración del ambiente de desarrollo.</figure-caption>
     </div>    
 </figure>
 
@@ -129,22 +129,6 @@ Una vez iniciado, puede ingresar con su navegador web de preferencia a la URL `h
 
 <br />
 
-Luego, ingrese al directorio `workspace/notebook-examples` y seleccione el archivo `python_nb.ipynb`.
-
-<figure>
-     <div align="center" width="80%">
-        <img width="100%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter04.png" alt=""/>
-        <br />
-        <figure-caption>Figura 1.3.4. Cuaderno Jupyter de prueba.</figure-caption>
-    </div>
-</figure>
-
-<br />
-
-Finalmente, presione `Ejecutar todo` (botón `P` en la Figura 1.3.4). El cuaderno Jupyter debe mostrar un mensaje `Hola mundo`, un grafico sencillo y un diagrama UML. Si lo anterior se cumple, el servidor Jupyter Lab está operando.
-
->Nota: El kernel del cuaderno se puede cambiar presionando la sección `K` que se muestra en la Figura 1.3.4.
-
 </details>
 
 ### 1.4) Uso del contenedor con VS Code
@@ -160,20 +144,20 @@ En este caso, el software `VS Code` inicia el contenedor revisando el contenido 
      <div align="center" width="80%">
         <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso03.png" alt=""/>
         <br />
-        <figure-caption>Figura 3. Selección opción "Abrir con VS Code" en el caso de MacOSX.</figure-caption>
+        <figure-caption>Figura 1.4.1 Selección opción "Abrir con VS Code" en el caso de MacOSX.</figure-caption>
     </div>
 </figure>
 
 <br />
 
 
-2) Una vez que `VS Code` se ejecute, mostrará un aviso como el de la Figura 4. Seleccione **Volver a abrir en el contenedor**.
+2) Una vez que `VS Code` se ejecute, mostrará un aviso como el de la Figura 1.4.2. Seleccione **Volver a abrir en el contenedor**.
 
 <figure>
     <div align="center" width="80%">
         <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso04.png" alt=""/>
         <br />
-        <figure-caption>Figura 4. VS Code avisa que encontró una configuración de un contenedor de desarrollo, por lo que es necesario abrir nuevamente la carpeta con esta opción.</figure-caption>
+        <figure-caption>Figura 1.4.2 VS Code avisa que encontró una configuración de un contenedor de desarrollo, por lo que es necesario abrir nuevamente la carpeta con esta opción.</figure-caption>
     </div>
 </figure>
 
@@ -185,31 +169,31 @@ En este caso, el software `VS Code` inicia el contenedor revisando el contenido 
     <div align="center" width="80%">
     <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso05.png" alt=""/>
     <br />
-    <figure-caption>Figura 5. Abrir la carpeta en un contenedor de desarrollo. Esta opción abrirá y ejectura el contenedor de desarrollo de la asignatura.</figure-caption>
+    <figure-caption>Figura 1.4.3 Abrir la carpeta en un contenedor de desarrollo. Esta opción abrirá y ejectura el contenedor de desarrollo de la asignatura.</figure-caption>
     </div>
 </figure>
 
 <br />
 
-4) Una vez realizado el paso 4 o 5, `VS Code` pasa por distinto estados, tal como muestran en la Figura 6. El primer paso la primera vez se puede demorar debido a que tiene que bajar la imagen del contenedor, cuyo tamaño es de aproximadamente 10 GB.
+4) Una vez realizado el paso 2 ó 3, `VS Code` pasa por distinto estados, tal como muestran en la Figura 1.4.4. El primer paso la primera vez se puede demorar debido a que tiene que bajar la imagen del contenedor, cuyo tamaño es de aproximadamente 10 GB.
 
 <figure>
     <div align="center" width="80%">
         <img width="60%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso06.png" alt=""/>
         <br />
-        <figure-caption>Figura 6. En la esquina inferior derecha VS Code muestra el estado de preparación del ambiente de desarrollo.</figure-caption>
+        <figure-caption>Figura 1.4.4 En la esquina inferior derecha VS Code muestra el estado de preparación del ambiente de desarrollo.</figure-caption>
     </div>
 </figure>
 
 <br />
 
-5) Una vez que la imagen está configurada, `VS Code` tendrá una apariencia similar a la que se muestra en la Figura 7.
+5) Una vez que la imagen está configurada, `VS Code` tendrá una apariencia similar a la que se muestra en la Figura 1.4.5.
 
 <figure>
     <div align="center" width="100%">
         <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso07.png" alt=""/>
         <br />
-        <figure-caption>Figura 7. Ambiente de desarrollo instalado con éxito. En la sección *WORKSPACE* debe estar las carpetas que se localizan dentro de la carpeta `workpace` en el host.</figure-caption>
+        <figure-caption>Figura 1.4.5 Ambiente de desarrollo instalado con éxito. En la sección *WORKSPACE* debe estar las carpetas que se localizan dentro de la carpeta `workpace` en el host.</figure-caption>
     </div>
 </figure>
 
@@ -222,6 +206,23 @@ En este caso, el software `VS Code` inicia el contenedor revisando el contenido 
 <details>
 <summary>Mostrar</summary>
 
+Ingrese al directorio `workspace/notebook-examples` y seleccione el archivo `python_nb.ipynb`.
+
+<figure>
+     <div align="center" width="80%">
+        <img width="100%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter04.png" alt=""/>
+        <br />
+        <figure-caption>Figura 2.1 Cuaderno Jupyter de prueba.</figure-caption>
+    </div>
+</figure>
+
+<br />
+
+Finalmente, presione `Ejecutar todo` (botón `P` en la Figura 1.3.4). El cuaderno Jupyter debe mostrar un mensaje `Hola mundo`, un grafico sencillo y un diagrama UML. Si lo anterior se cumple, el servidor Jupyter Lab está operando.
+
+>Nota: El kernel del cuaderno se puede cambiar presionando la sección `K` que se muestra en la Figura 1.3.4.
+
+
 </details>
 
 
@@ -232,13 +233,13 @@ En este caso, el software `VS Code` inicia el contenedor revisando el contenido 
 
 El contenedor de desarrollo tiene todo lo necesario para el desarrollo de la asignatura: compilador de `C++` y `Java` e intérprete de `Python`. Además, tiene los complementos de `VS Code` para facilitar la codificación en estos lenguajes. Se debe destacar que **no es necesario que estas herramientas estén instaladas en su computador**. Esto ya está resuelto a nivel del contenedor de desarrollo.
 
-1) Seleccione la carpeta `notebook-examples` y luego el archvo `python_nb.ipynb`, tal como se muestra en la Figura 8.
+1) Seleccione la carpeta `notebook-examples` y luego el archvo `python_nb.ipynb`, tal como se muestra en la Figura 3.1.
 
 <figure>
     <div align="center" width="80%">
         <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/func01.png" alt=""/>
         <br />
-        <figure-caption>Figura 8. Selección de carpetas en el contenedor de desarrollo.</figure-caption>
+        <figure-caption>Figura 3.1 Selección de carpetas en el contenedor de desarrollo.</figure-caption>
     </div>
 </figure>
 
@@ -256,25 +257,25 @@ El contenedor de desarrollo tiene todo lo necesario para el desarrollo de la asi
 <details>
 <summary>Mostrar</summary>
 
-Para seleccionar un kernel, debe hacer click en el botón `Seleccionar el kernel` en el sector superior derecho de VS Code. Tras seleccionar `Servidor de Jupyter existente`, se debe ingresar la URL del servidor jupyter instalado en el contenedor (`http://localhost:8888`). Debido a que esta es una dirección no segura, se debe aceptar explícitamente la conexión. Estos pasos se muestran en la Figura A.
+Para seleccionar un kernel, debe hacer click en el botón `Seleccionar el kernel` en el sector superior derecho de VS Code. Tras seleccionar `Servidor de Jupyter existente`, se debe ingresar la URL del servidor jupyter instalado en el contenedor (`http://localhost:8888`). Debido a que esta es una dirección no segura, se debe aceptar explícitamente la conexión. Estos pasos se muestran en la Figura 4.1.
 
 <figure>
     <div align="center" width="80%">
         <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel01.png" alt=""/>
         <br />
-        <figure-caption>Figura A. Pasos iniciales para seleccionar un kernel en el contenedor.</figure-caption>
+        <figure-caption>Figura 4.1 Pasos iniciales para seleccionar un kernel en el contenedor.</figure-caption>
     </div>
 </figure>
 
 <br />
 
- Luego de aceptar la conexión no segura, se puede cambiar el nombre que VS Code usará para referenciar el servidor jupyter. En la Figura B, muestra que el nombre por omisión `localhost` se cambia a uno más representativo, como `jappy_server`.
+ Luego de aceptar la conexión no segura, se puede cambiar el nombre que VS Code usará para referenciar el servidor jupyter. En la Figura 4.2, muestra que el nombre por omisión `localhost` se cambia a uno más representativo, como `jappy_server`.
 
 <figure>
     <div align="center" width="100%">
         <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel02.png" alt=""/>
         <br />
-        <figure-caption>Figura B. Cambio del nombre lógico del servidor jupyter del contenedor.</figure-caption>
+        <figure-caption>Figura 4.2 Cambio del nombre lógico del servidor jupyter del contenedor.</figure-caption>
     </div>
 </figure>
 
@@ -286,7 +287,7 @@ Finalmente, se selecciona el kernel a utilizar.
     <div align="center" width="80%">
         <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel03.png" alt=""/>
         <br />
-        <figure-caption>Figura C. Selección del kernel que se utilizará en el cuaderno jupyter.</figure-caption>
+        <figure-caption>Figura 4.3 Selección del kernel que se utilizará en el cuaderno jupyter.</figure-caption>
     </div>
 </figure>
 
