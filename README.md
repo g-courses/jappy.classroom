@@ -3,6 +3,9 @@
 
 ## Implantación del ambiente de desarrollo
 
+<details>
+<summary>Mostrar</summary>
+
 ### Software base
 
 Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code como herramienta de desarrollo y Docker como tecnología de infraestructura. Para lograr esto, en su computador deberá instalar:
@@ -135,6 +138,8 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 </figure>
 
 <br />
+
+</details>
 
 ## Prueba de funcionamiento del intérprete Python del contenedor de desarrollo
 
