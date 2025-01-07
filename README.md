@@ -131,6 +131,21 @@ Una vez iniciado, puede ingresar con su navegador web de preferencia a la URL `h
 
 </details>
 
+Para detener el contenedor, debe ingresar el comando `docker compose down`.
+
+<figure>
+     <div align="center" width="80%">
+        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter04.png" alt=""/>
+        <br />
+        <figure-caption>Figura 1.3.4. Proceso de apagado del contenedor a través de Docker Compose.</figure-caption>
+    </div>
+</figure>
+
+<br />
+
+</details>
+
+
 ### 1.4) Uso del contenedor con VS Code
 
 <details>
