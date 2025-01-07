@@ -1,0 +1,31 @@
+@startuml control2
+
+    class Figura{
+        INIT_CLASS()
+
+        area(): double
+    }
+
+    class Rectangulo{
+        base: double
+        altura: double
+
+        INIT_CLASS(_base: doublen, _altura: double)
+         area(): double
+    }
+
+    class Elipse
+
+    class Cuadrado
+
+    class Circulo
+
+    Figura <|-- Rectangulo
+    Figura <|-- Elipse
+
+    Rectangulo <|-- Cuadrado
+    Elipse <|-- Circulo
+
+
+
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Fecha {
+    - date: string
+    - format: string
+
+    + create(): Fecha
+    + create(_date: string): void
+
+    + format(_format: string): void
+
+    + setYear(_year: int): void
+    + setMonth(_month: int): void
+    + setDay(_day: int): void
+    + getYear(): int
+    + getMonth(): int
+    + getDay(): int
+
+    + getDate(): string
+    + getDate(_format: string): string
+}
+@enduml
