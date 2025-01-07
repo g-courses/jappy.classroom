@@ -129,8 +129,6 @@ Una vez iniciado, puede ingresar con su navegador web de preferencia a la URL `h
 
 <br />
 
-</details>
-
 Para detener el contenedor, debe ingresar el comando `docker compose down`.
 
 <figure>
