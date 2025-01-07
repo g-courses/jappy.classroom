@@ -136,7 +136,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 <br />
 
-### Prueba de funcionamiento del intérprete Python del contenedor de desarrollo
+## Prueba de funcionamiento del intérprete Python del contenedor de desarrollo
 
 El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asignatura: compiladores de `C++`, `Java` e intérprete de `Python`. Además, tiene los complementos de `VS Code` para facilitar la codificación en estos lenguajes. Se debe destacar que **no es necesario que estas herramientas estén instaladas en su computador**. Esto ya está resuelto a nivel del contenedor de desarrollo.
 
@@ -154,46 +154,48 @@ El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asig
 
 2) Para ejecutar el notebook, es necesario seleccionar un kernel apropiado. Se debe recordar que se debe seleccionar uno que **esté instalado en el contenedor**.
 
-><details>
-><summary>Pasos para seleccionar un kernel</summary>
->
->Para seleccionar un kernel, debe hacer click en el botón `Seleccionar el kernel` en el sector superior derecho de VS Code. Tras seleccionar `Servidor de Jupyter existente`, se debe ingresar la URL del servidor jupyter instalado en el contenedor (`http://localhost:8888`). Debido a que esta es una dirección no segura, se debe aceptar explícitamente la conexión. Estos pasos se muestran en la Figura A.
->
-><figure>
->    <div align="center" width="80%">
->        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel01.png" alt=""/>
->        <br />
->        <figure-caption>Figura A. Pasos iniciales para seleccionar un kernel en el contenedor.</figure-caption>
->    </div>
-></figure>
->
-><br />
->
-> Luego de aceptar la conexión no segura, se puede cambiar el nombre que VS Code usará para referenciar el servidor jupyter. En la Figura B, muestra que el nombre por omisión `localhost` se cambia a uno más representativo, como `jappy_server`.
->
-><figure>
->    <div align="center" width="100%">
->        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel02.png" alt=""/>
->        <br />
->        <figure-caption>Figura B. Cambio del nombre lógico del servidor jupyter del contenedor.</figure-caption>
->    </div>
-></figure>
->
-><br />
->
->Finalmente, se selecciona el kernel a utilizar.
->
-><figure>
->    <div align="center" width="80%">
->        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel03.png" alt=""/>
->        <br />
->        <figure-caption>Figura C. Selección del kernel que se utilizará en el cuaderno jupyter.</figure-caption>
->    </div>
-></figure>
->
->Una vez finalizado esto pasos, los otros kernels se pueden seleccionar escogiendo el servidor `jappy_server` creado.
->
-></details>
-
 
 3) Finalmente, presione `Ejecutar todo`. El cuaderno Jupyter debe mostrar un mensaje `Hola mundo`, un grafico sencillo y un diagrama UML. Si lo anterior se cumple, el servidor Jupyter está operando y su ambiente de desarrollo esta listo.
+
+## Selección de kernel
+
+<details>
+<summary>Pasos para seleccionar un kernel</summary>
+
+Para seleccionar un kernel, debe hacer click en el botón `Seleccionar el kernel` en el sector superior derecho de VS Code. Tras seleccionar `Servidor de Jupyter existente`, se debe ingresar la URL del servidor jupyter instalado en el contenedor (`http://localhost:8888`). Debido a que esta es una dirección no segura, se debe aceptar explícitamente la conexión. Estos pasos se muestran en la Figura A.
+
+<figure>
+    <div align="center" width="80%">
+        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel01.png" alt=""/>
+        <br />
+        <figure-caption>Figura A. Pasos iniciales para seleccionar un kernel en el contenedor.</figure-caption>
+    </div>
+</figure>
+
+<br />
+
+ Luego de aceptar la conexión no segura, se puede cambiar el nombre que VS Code usará para referenciar el servidor jupyter. En la Figura B, muestra que el nombre por omisión `localhost` se cambia a uno más representativo, como `jappy_server`.
+
+<figure>
+    <div align="center" width="100%">
+        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel02.png" alt=""/>
+        <br />
+        <figure-caption>Figura B. Cambio del nombre lógico del servidor jupyter del contenedor.</figure-caption>
+    </div>
+</figure>
+
+<br />
+
+Finalmente, se selecciona el kernel a utilizar.
+
+<figure>
+    <div align="center" width="80%">
+        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel03.png" alt=""/>
+        <br />
+        <figure-caption>Figura C. Selección del kernel que se utilizará en el cuaderno jupyter.</figure-caption>
+    </div>
+</figure>
+
+Una vez finalizado esto pasos, los otros kernels se pueden seleccionar escogiendo el servidor `jappy_server` creado.
+
+</details>
