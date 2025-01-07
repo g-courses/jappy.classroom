@@ -2,7 +2,8 @@
 
 
 ## Implantación del ambiente de desarrollo
-
+<details>
+<summary>Mostrar</summary>
 ### Software base
 
 Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code como herramienta de desarrollo y Docker como tecnología de infraestructura. Para lograr esto, en su computador deberá instalar:
@@ -62,6 +63,7 @@ git clone https://github.com/g-courses/jappy.classroom.git
 
 <br />
 
+
 Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` estén en el directorio creado:
 
 <figure>
@@ -74,6 +76,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 <br />
 
+</details>
 
 3) En el explorador de archivos, seleccione `Abrir con VS Code` en el menú contextual de la carpeta `codes_examples`.
 
@@ -136,8 +139,10 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 <br />
 
+</datails>
 ## Prueba de funcionamiento del intérprete Python del contenedor de desarrollo
-
+<details>
+<summary>Mostrar</summary>
 El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asignatura: compiladores de `C++`, `Java` e intérprete de `Python`. Además, tiene los complementos de `VS Code` para facilitar la codificación en estos lenguajes. Se debe destacar que **no es necesario que estas herramientas estén instaladas en su computador**. Esto ya está resuelto a nivel del contenedor de desarrollo.
 
 1) Seleccione la carpeta `notebook-examples` y luego el archvo `python_nb.ipynb`, tal como se muestra en la Figura 8.
@@ -156,11 +161,12 @@ El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asig
 
 
 3) Finalmente, presione `Ejecutar todo`. El cuaderno Jupyter debe mostrar un mensaje `Hola mundo`, un grafico sencillo y un diagrama UML. Si lo anterior se cumple, el servidor Jupyter está operando y su ambiente de desarrollo esta listo.
+</details>
 
 ## Selección de kernel
 
 <details>
-<summary>Pasos para seleccionar un kernel</summary>
+<summary>Mostrar</summary>
 
 Para seleccionar un kernel, debe hacer click en el botón `Seleccionar el kernel` en el sector superior derecho de VS Code. Tras seleccionar `Servidor de Jupyter existente`, se debe ingresar la URL del servidor jupyter instalado en el contenedor (`http://localhost:8888`). Debido a que esta es una dirección no segura, se debe aceptar explícitamente la conexión. Estos pasos se muestran en la Figura A.
 
