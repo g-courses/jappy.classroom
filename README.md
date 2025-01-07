@@ -130,7 +130,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
     <div align="center" width="100%">
         <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso07.png" alt=""/>
         <br />
-        <figure-caption>Figura 7. Ambiente de desarrollo instalado con éxito. En la ventana "Workspace" debe estar una carpeta con nombre "inf214"</figure-caption>
+        <figure-caption>Figura 7. Ambiente de desarrollo instalado con éxito. En la sección *WORKSPAXE* debe estar las carpetas que se localizan dentro de la carpeta `workpace` en el host.</figure-caption>
     </div>
 </figure>
 
