@@ -66,7 +66,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 <figure>
     <div align="center" width="80%">
-        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso02-02.png" alt=""/>
+        <img width="60%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso02-02.png" alt=""/>
         <br />
         <figure-caption>Figura 2b. Verificación de los archivos de configuración del ambiente de desarrollo.</figure-caption>
     </div>    
