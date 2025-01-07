@@ -90,6 +90,8 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 ### 1.3) Uso del contenedor con Jupyter Lab
 
+En este caso, el inicio y apagado del contenedor se realiza a través de la plataforma `Docker Compose`. Una vez que el contenedor se inicia, la herramientas de desarrollo se acceder a través de un servidor Jupyter Lab.
+
 <details>
 <summary>Mostrar</summary>
 
