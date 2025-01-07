@@ -173,7 +173,7 @@ El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asig
 >
 ><figure>
 >    <div align="center" width="100%">
->        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel02.png" alt=""/>
+>        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel02.png" alt=""/>
 >        <br />
 >        <figure-caption>Figura B. Cambio del nombre lógico del servidor jupyter del contenedor.</figure-caption>
 >    </div>
@@ -185,7 +185,7 @@ El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asig
 >
 ><figure>
 >    <div align="center" width="80%">
->        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel03.png" alt=""/>
+>        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/kernel03.png" alt=""/>
 >        <br />
 >        <figure-caption>Figura C. Selección del kernel que se utilizará en el cuaderno jupyter.</figure-caption>
 >    </div>
