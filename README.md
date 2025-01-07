@@ -3,10 +3,10 @@
 
 ## 1) Implantación del ambiente de desarrollo
 
-### 1.1) Software base
-
 <details>
 <summary>Mostrar</summary>
+
+### 1.1) Software base
 
 Los ejemplos y las tareas de la asignatura se realizarán utilizando `VS Code` como herramienta de desarrollo y Docker como tecnología de infraestructura. Para lograr esto, en su computador deberá instalar:
 
@@ -36,12 +36,9 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando `VS Code` c
 >- Salvar como  `Abrir en VS Code`
 ></details>
 
-</details>
 
 ### 1.2) Instalación del contenedor de desarrollo 
 
-<details>
-<summary>Mostrar</summary>
 
 Para instalar el contenedor de desarrollo, es suficiente tener los archivos `.devcontainer.json` y `docker-compose.yml` dentro de una carpeta. Este ejemplo muestra la obtención de estos archivos a través de la clonación de un repositorio determinado.
 
