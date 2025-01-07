@@ -90,7 +90,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 </details>
 
-### 1.3) Uso del contenedor con Jupyter Lab
+## 2) Uso del contenedor con Jupyter Lab
 
 <details>
 <summary>Mostrar</summary>
@@ -148,7 +148,7 @@ Para detener el contenedor, debe ingresar el comando `docker compose down`.
 </details>
 
 
-### 1.4) Uso del contenedor con VS Code
+## 3) Uso del contenedor con VS Code
 
 <details>
 <summary>Mostrar</summary>
@@ -218,7 +218,7 @@ En este caso, el software `VS Code` inicia el contenedor revisando el contenido 
 
 </details>
 
-## 2) Prueba de funcionamiento del contenedor de desarrollo con Jupyter Lab
+## 4) Prueba de funcionamiento del contenedor de desarrollo con Jupyter Lab
 
 <details>
 <summary>Mostrar</summary>
@@ -243,7 +243,7 @@ Finalmente, presione `Ejecutar todo` (botón `P` en la Figura 1.3.4). El cuadern
 </details>
 
 
-## 3) Prueba de funcionamiento del icontenedor de desarrollo con VS Code
+## 5) Prueba de funcionamiento del icontenedor de desarrollo con VS Code
 
 <details>
 <summary>Mostrar</summary>
@@ -269,7 +269,7 @@ El contenedor de desarrollo tiene todo lo necesario para el desarrollo de la asi
 
 </details>
 
-## 4) Selección de kernel
+## 6) Selección de kernel
 
 <details>
 <summary>Mostrar</summary>
