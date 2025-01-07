@@ -38,7 +38,7 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code com
 
 <figure>
     <div align="center" width="80%">
-        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso01.png" alt=""/>
+        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso01.png" alt=""/>
         <br />
         <figure-caption>Figura 1. Ejemplo de creación de carpeta "clases" y el terminal respectivo.</figure-caption>
     </div>
