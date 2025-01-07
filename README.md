@@ -92,10 +92,10 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 ### 1.3) Uso del contenedor con Jupyter Lab
 
-En este caso, el inicio y apagado del contenedor se realiza a través de la plataforma `Docker Compose`. Una vez que el contenedor se inicia, la herramientas de desarrollo se acceder a través de un servidor Jupyter Lab.
-
 <details>
 <summary>Mostrar</summary>
+
+En este caso, el inicio y apagado del contenedor se realiza a través de la plataforma `Docker Compose`. Una vez que el contenedor se inicia, la herramientas de desarrollo se acceder a través de un servidor Jupyter Lab.
 
 Partiendo del paso 2) de la sección 1.2), abra un terminal en la carpeta `jappy.classroom`.
 
@@ -150,11 +150,10 @@ Para detener el contenedor, debe ingresar el comando `docker compose down`.
 
 ### 1.4) Uso del contenedor con VS Code
 
-En este caso, el software `VS Code` inicia el contenedor revisando el contenido del archivo `.devcontainer.json` y `docker-compose.yml`.
-
 <details>
 <summary>Mostrar</summary>
 
+En este caso, el software `VS Code` inicia el contenedor revisando el contenido del archivo `.devcontainer.json` y `docker-compose.yml`.
 
 1) En el explorador de archivos, seleccione `Abrir con VS Code` en el menú contextual de la carpeta `codes_examples`.
 
