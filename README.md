@@ -16,12 +16,10 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code com
 
 ><details>
 ><summary>Opción "Abrir en VS Code" en MacOSX</summary>
+>
 >- Abrir Automator
->
 >- Crear un nuevo documento
->
 >- Seleccionar "Acción rápida"
->
 >- Configura "FLujo de trabajo recibe el actual" a `archivos o carpetas` en `cualquier aplicaciòn`
 >- Agregar la acción `Ejecutar el script shell` 
 >- configurar "Shell" al que utilizan normalmente (p.e. `/bin/bash`)
