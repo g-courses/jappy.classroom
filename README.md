@@ -86,6 +86,8 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est√
 
 <br />
 
+Nota: Debe revisar que la directiva `platform` en el archivo `docker-compose.yml` coincida con la arquitectura del procesador de su computador. Use `linux/amd64` si el procesador es arquitectura Intel o AMD. Si es ARM, use `linux/arm64`.
+
 </details>
 
 ### 1.3) Uso del contenedor con Jupyter Lab
