@@ -93,6 +93,58 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 <details>
 <summary>Mostrar</summary>
 
+Partiendo del paso 2) de la sección 1.2), abra un terminal en la carpeta `jappy.classroom`.
+
+<figure>
+     <div align="center" width="80%">
+        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter01.png" alt=""/>
+        <br />
+        <figure-caption>Figura 1.3.1. Terminal abierto en la carpeta `jappy.classroom` del repositorio clonado en el punto 1.2).</figure-caption>
+    </div>
+</figure>
+
+<br />
+
+Luego, inicie el contenedor con el comando `docker compose up -d`.
+
+<figure>
+     <div align="center" width="80%">
+        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter02.png" alt=""/>
+        <br />
+        <figure-caption>Figura 1.3.2. Inicio del contenedor a través de Docker Compose.</figure-caption>
+    </div>
+</figure>
+
+<br />
+
+Una vez iniciado, puede ingresar con su navegador web de preferencia a la URL `http://localhost:8888`. Se mostrará el acceso al servidor Jupyter Lab.
+
+<figure>
+     <div align="center" width="80%">
+        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter03.png" alt=""/>
+        <br />
+        <figure-caption>Figura 1.3.3. Servidor Jupyter Lab iniciado en el contenedor de desarrollo.</figure-caption>
+    </div>
+</figure>
+
+<br />
+
+Luego, ingrese al directorio `workspace/notebook-examples` y seleccione el archivo `python_nb.ipynb`.
+
+<figure>
+     <div align="center" width="80%">
+        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter04.png" alt=""/>
+        <br />
+        <figure-caption>Figura 1.3.4. Cuaderno Jupyter de prueba.</figure-caption>
+    </div>
+</figure>
+
+<br />
+
+Finalmente, presione `Ejecutar todo` (botón `P` en la Figura 1.3.4). El cuaderno Jupyter debe mostrar un mensaje `Hola mundo`, un grafico sencillo y un diagrama UML. Si lo anterior se cumple, el servidor Jupyter Lab está operando.
+
+>Nota: El kernel del cuaderno se puede cambiar presionando la sección `K` que se muestra en la Figura 1.3.4.
+
 </details>
 
 ### 1.4) Uso del contenedor con VS Code
@@ -139,7 +191,7 @@ En este caso, el software `VS Code` inicia el contenedor revisando el contenido 
 
 <br />
 
-4) Una vez realizado el paso 4 o 5, `VS Code` pasa por distinto estados, tal como muestran en la Figura 6. El primer paso la primera vez se puede demorar debido a que tiene que bajar la imagen del contenedor, cuyo tamaño es de aproximadamente 7 GB.
+4) Una vez realizado el paso 4 o 5, `VS Code` pasa por distinto estados, tal como muestran en la Figura 6. El primer paso la primera vez se puede demorar debido a que tiene que bajar la imagen del contenedor, cuyo tamaño es de aproximadamente 10 GB.
 
 <figure>
     <div align="center" width="80%">
