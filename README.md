@@ -54,7 +54,7 @@ git clone https://github.com/g-courses/jappy.classroom.git
 
 <figure>
     <div align="center" width="80%">
-        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso02-01.png" alt=""/>
+        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso02-01.png" alt=""/>
         <br />
         <figure-caption>Figura 2a. Clonación a través del comando git.</figure-caption>
     </div>    
