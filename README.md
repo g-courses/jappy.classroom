@@ -1,7 +1,7 @@
 # JAPPY: Educational resource for programming classes in  Java,  C++ and Python
 
 
-## 1) Implantación del ambiente de desarrollo
+## 1) Implantación del contenedor de desarrollo
 
 <details>
 <summary>Mostrar</summary>
@@ -215,7 +215,7 @@ En este caso, el software `VS Code` inicia el contenedor revisando el contenido 
 
 </details>
 
-## 4) Prueba de funcionamiento del contenedor de desarrollo con Jupyter Lab
+## 4) Prueba de funcionamiento del contenedor con Jupyter Lab
 
 <details>
 <summary>Mostrar</summary>
@@ -240,7 +240,7 @@ Finalmente, presione `Ejecutar todo` (botón `P` en la Figura 4.1. El cuaderno J
 </details>
 
 
-## 5) Prueba de funcionamiento del icontenedor de desarrollo con VS Code
+## 5) Prueba de funcionamiento del contenedor con VS Code
 
 <details>
 <summary>Mostrar</summary>
