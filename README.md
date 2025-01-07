@@ -65,7 +65,7 @@ git clone https://github.com/g-courses/jappy.classroom.git
 Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` estén en el directorio creado:
 
 <figure>
-    <div align="center" width="50%">
+    <div align="center" width="30%">
         <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso02-02.png" alt=""/>
         <br />
         <figure-caption>Figura 2b. Verificación de los archivos de configuración del ambiente de desarrollo.</figure-caption>
