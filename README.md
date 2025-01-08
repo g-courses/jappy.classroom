@@ -342,25 +342,30 @@ Luego, el programa `VS Code` que se ejecuta en el anfitrión, inicia el proceso 
 <details>
 <summary>Mostrar</summary>
 
-**Compilers**
+**Compiladores e intérpretes**
 
 * Compilador C++17 g++ 9.4.0, GNU Make 4.2.1, Cmake 3.16.3
 * openJDK 11
 * Python 3.8.10
-* Jupyter notebook server
 
-**Python modules**
+**Herramientas de desarrollo**
+
+* Doxygen 1.9.1
+
+**Módulos de Python**
 
 * Matplotlib 3.7.5
 * Numpy 1.24.4
 * Pandas 2.0.3
 * Ployly 5.23.0
 
-**Jupyter Kernels**
+**Jupyter Server**
 
-* IPython para ejecutar script de python.
-* IJava para ejecutar código Java.
-* Cling-cpp17 para ejecutar código C++17.
+* Servidor Jupyter 3.6.8
+* kernel ipydrawio 1.3.0
+* kernel IPython 3.12.8
+* kernel IJava 1.3.0
+* kernel Cling-cpp17 0.15.3
 
 **VS Code extensions**
 
