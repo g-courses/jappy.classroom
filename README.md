@@ -327,7 +327,7 @@ Luego, el programa `VS Code` que se ejecuta en el anfitrión, inicia el proceso 
 
 <figure>
     <div align="center" width="100%">
-        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/arq01.png" alt=""/>
+        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/arq02.png" alt=""/>
         <br />
         <figure-caption>Figura A1. Arquitectura de desarrollo basada en VS Code y Docker.
         <figure-caption>
