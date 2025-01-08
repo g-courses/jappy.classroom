@@ -1,4 +1,4 @@
-# JAPPY: Recurso educacional para realizar clases de programación en Java, C++ and Python
+# JAPPY: Recurso educacional para realizar clases de programación en Java, C++ y Python
 
 
 ## 1) Implantación del contenedor de desarrollo
