@@ -1,9 +1,8 @@
 services:
   jappy:
-    platform: linux/amd64 # descomente si el procesador es Intel o AMD.
-    #platform: linux/arm64 # descomente si el procesador es ARM.
-    
+    platform: linux/arm64
     image: gastudil/courses:jappy-latest
+    restart: no
     container_name: dev-jappy
     hostname: dev-jappy
     ports:
