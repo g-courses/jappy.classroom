@@ -25,6 +25,9 @@
 	"customizations": {
 	        "vscode": {
 				"settings": {
+                    "files.exclude": {
+                        "**/.ipy*": true
+                    },
                     "extensions.ignoreRecommendations": true,
 					//"editor.inlineSuggest.enabled": false,
 					//"editor.inlineSuggest.showToolbar": "never",
