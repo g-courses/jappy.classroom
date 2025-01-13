@@ -2,7 +2,6 @@ services:
   jappy:
     platform: linux/arm64
     image: gastudil/courses:jappy-latest
-    restart: no
     container_name: dev-jappy
     hostname: dev-jappy
     ports:

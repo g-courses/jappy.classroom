@@ -2,7 +2,6 @@
     "dockerComposeFile": "docker-compose.yml",
     "service": "jappy",
     "remoteUser": "devuser",
-    "shutdownAction": "stopCompose",
     
     // Permite sobrescribir el ENTRYPOINT
     "overrideCommand": false, 
