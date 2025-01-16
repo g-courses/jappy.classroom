@@ -1,6 +1,7 @@
 services:
   jappy:
-    platform: linux/arm64
+    #platform: linux/arm64
+    platform: linux/amd64
     image: gastudil/courses:jappy-latest
     container_name: dev-jappy
     hostname: dev-jappy
