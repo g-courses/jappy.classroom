@@ -348,7 +348,7 @@ Luego, el programa `VS Code` que se ejecuta en el anfitrión, inicia el proceso 
 
 * Compilador C++17 g++ 9.4.0, GNU Make 4.2.1, Cmake 3.16.3
 * openJDK 11
-* Python 3.8.10
+* Python 3.10
 
 **Herramientas de desarrollo**
 
