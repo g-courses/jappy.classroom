@@ -20,5 +20,4 @@ class Fecha {
     + getDate(): string
     + getDate(format: string): string
 }
-
 @enduml
