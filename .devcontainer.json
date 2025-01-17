@@ -25,7 +25,8 @@
         "vscode": {
             "settings": {
                 "files.exclude": {
-                    "**/.ipy*": true
+                    "**/.ipy*": true,
+                    "**/.Trash*": true
                 },
                 "extensions.ignoreRecommendations": true,
                 //"editor.inlineSuggest.enabled": false,

@@ -1,7 +1,7 @@
 @startuml control2
 
     class Figura{
-        INIT_CLASS()
+        init()
 
         area(): double
     }
@@ -10,7 +10,7 @@
         base: double
         altura: double
 
-        INIT_CLASS(_base: doublen, _altura: double)
+        init(_base: doublen, _altura: double)
          area(): double
     }
 
