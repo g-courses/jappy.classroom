@@ -264,7 +264,7 @@ El contenedor de desarrollo tiene todo lo necesario para el desarrollo de la asi
 
 3) Finalmente, presione `Ejecutar todo`. El cuaderno Jupyter debe mostrar un mensaje `Hola mundo`, un grafico sencillo y un diagrama UML. Si lo anterior se cumple, el servidor Jupyter está operando y su ambiente de desarrollo esta listo.
 
->**Nota** El contenedor iniciado a través de `VS Code` queda asociado a la carpeta que se seleccionó para abir. Una vez cerrado, si se quiere abrir `VS Code` en otra carpeta que contenga los mismos archivos `.devcontainer.json` y `docker-compose.yml`, se debe *eliminar* el contenedor, en la sección respectiva del software `Docker Desktop` o vía interfaz de comandos. 
+>**Nota** Debido a que el contenedor iniciado a través de `VS Code` queda asociado al puerto `8888/tcp`, no pueden exister simultáneamente dos contenedores.
 
 </details>
 
