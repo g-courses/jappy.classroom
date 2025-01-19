@@ -26,7 +26,8 @@
             "settings": {
                 "files.exclude": {
                     "**/.ipy*": true,
-                    "**/.Trash*": true
+                    "**/.Trash*": true,
+                    "**/.DS_*": true
                 },
                 "extensions.ignoreRecommendations": true,
                 //"editor.inlineSuggest.enabled": false,
