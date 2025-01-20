@@ -339,7 +339,7 @@ Luego, el programa `VS Code` que se ejecuta en el anfitrión, inicia el proceso 
 
 </details>
 
-## B) Sofware instaladado (2025-06-01)
+## B) Sofware instaladado (2025-19-01)
 
 <details>
 <summary>Mostrar</summary>
@@ -353,6 +353,7 @@ Luego, el programa `VS Code` que se ejecuta en el anfitrión, inicia el proceso 
 **Herramientas de desarrollo**
 
 * Doxygen 1.9.1
+* Mermaid 11.4.x
 
 **Módulos de Python**
 
@@ -377,7 +378,7 @@ Luego, el programa `VS Code` que se ejecuta en el anfitrión, inicia el proceso 
 * lfm.vscode-makefile-term
 * ms-vscode.makefile-tools
 * redhat.java
-* hnw.vscode-auto-open-markdown-preview
 * ms-toolsai.datawrangler
+* bierner.markdown-mermaid
 
 </details>
