@@ -1,5 +1,4 @@
-@startuml
-skinparam classAttributeIconSize 0
+classDiagram
 
 class NombreApellidos{
     - nombre: string
@@ -45,11 +44,10 @@ class DB{
 }
 
 
+direction BT
+DB *-- Persona
+
+Persona *-- Direccion
+Persona *-- NombreApellidos
 
 
-Persona *-right- Direccion
-Persona *-up- NombreApellidos
-
-Persona --* DB
-
-@enduml

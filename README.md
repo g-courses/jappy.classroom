@@ -364,7 +364,7 @@ Luego, el programa `VS Code` que se ejecuta en el anfitrión, inicia el proceso 
 
 **Jupyter Server**
 
-* Servidor Jupyter 3.6.8
+* Servidor Jupyter 4.1
 * kernel ipydrawio 1.3.0
 * kernel IPython 3.12.8
 * kernel IJava 1.3.0

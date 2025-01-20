@@ -1,0 +1,12 @@
+%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
+
+
+flowchart TD
+    A[Inicio] --> B[Inicializar contador]
+    B --> C{?Contador < 5?}
+
+    C -- Sí --> D[Hacer algo]
+    D --> E[Incrementar contador]
+    E --> C
+    C -- No --> F[Fin]
+    

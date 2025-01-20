@@ -1,17 +1,16 @@
-@startuml control2
+classDiagram
 
     class Figura{
-        init()
-
-        area(): double
+        +init()
+        +area(): double
     }
 
     class Rectangulo{
-        base: double
-        altura: double
+        -base: double
+        -altura: double
 
-        init(_base: doublen, _altura: double)
-         area(): double
+        +init(base: double, altura: double)
+        +area(): double
     }
 
     class Elipse
@@ -20,12 +19,9 @@
 
     class Circulo
 
+    direction BT
     Figura <|-- Rectangulo
     Figura <|-- Elipse
 
     Rectangulo <|-- Cuadrado
     Elipse <|-- Circulo
-
-
-
-@enduml
