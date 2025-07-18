@@ -1,0 +1,53 @@
+classDiagram
+
+class NombreApellidos{
+    - nombre: string
+    - apellido1: string
+    - apellido2: string
+
+    + Nombre(_nombre: string, _apellido1: string, _apellido2: string)
+    + toString(): string
+}
+
+class Direccion{
+    - calle: string
+    - nro: int
+    - ciudad: string
+
+    + Direccion(_calle: string, _nro: int, _ciudad: ciudad)
+    + toString(): string
+}
+
+class Persona{
+    - nombreCompleto: NombreApellidos
+    - edad: int
+    - paisOrigen: string
+    - direccion: Direccion
+
+    + Persona(_nombreCompleto: NombreApellidos, _edad: int, _paisOrigen: string, _direccion: Direccion )
+    + mostrar(): void
+}
+
+class DB{
+    - personas: Persona[0..*]
+    - size: int
+    - last: int = 0
+
+    + DB(_size: int)
+    + add(p: Persona): void
+    + mostrarRegistros(): void
+    + seleccionarNombre(_nombre: string): void
+    + seleccionarApellido(_apellido: string): void
+    + seleccionarPaisOrigen(_paisOrigen: string): void
+    + seleccionarCiudadResidencia(_ciudad: string): void
+
+}
+
+
+direction BT
+DB *-- Persona
+
+Persona *-- Direccion
+Persona *-- NombreApellidos
+
+

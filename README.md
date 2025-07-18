@@ -104,7 +104,11 @@ Partiendo del paso 2) de la sección 1.2), abra un terminal en la carpeta `jappy
 
 <br />
 
-Luego, inicie el contenedor con el comando `docker compose up -d`.
+Luego, inicie el contenedor con el siguiente comando:
+
+```
+docker compose up -d
+```
 
 <figure>
      <div align="center" width="80%">
@@ -128,7 +132,11 @@ Una vez iniciado, puede ingresar con su navegador web de preferencia a la URL `h
 
 <br />
 
-Para detener el contenedor, debe ingresar el comando `docker compose down`.
+Para detener el contenedor, debe ingresar el siguiente comando:
+
+```
+docker compose down
+```
 
 <figure>
      <div align="center" width="80%">

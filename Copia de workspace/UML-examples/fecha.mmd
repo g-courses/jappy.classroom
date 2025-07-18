@@ -1,0 +1,21 @@
+classDiagram
+
+class Fecha {
+    - date: string
+    - format: string
+
+    + init(): Fecha
+    + init(date: string): void
+
+    + format(format: string): void
+
+    + setYear(year: int): void
+    + setMonth(month: int): void
+    + setDay(day: int): void
+    + getYear(): int
+    + getMonth(): int
+    + getDay(): int
+
+    + getDate(): string
+    + getDate(format: string): string
+}

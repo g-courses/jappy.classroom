@@ -1,0 +1,27 @@
+classDiagram
+
+    class Figura{
+        +init()
+        +area(): double
+    }
+
+    class Rectangulo{
+        -base: double
+        -altura: double
+
+        +init(base: double, altura: double)
+        +area(): double
+    }
+
+    class Elipse
+
+    class Cuadrado
+
+    class Circulo
+
+    direction BT
+    Figura <|-- Rectangulo
+    Figura <|-- Elipse
+
+    Rectangulo <|-- Cuadrado
+    Elipse <|-- Circulo
