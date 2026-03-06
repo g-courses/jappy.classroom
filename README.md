@@ -17,7 +17,7 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando `Jupyter No
 ### 1.2) Instalación del contenedor de desarrollo 
 
 
-Para instalar el contenedor de desarrollo, es suficiente tener los archivos `.devcontainer.json` y `docker-compose.yml` dentro de una carpeta. Este ejemplo muestra la obtención de estos archivos a través de la clonación de un repositorio determinado.
+Para instalar el contenedor de desarrollo, es suficiente con el archivo`docker-compose.yml` y la carpeta `workspace` dentro de una carpeta. Este ejemplo muestra la obtención de estos archivos a través de la clonación de un repositorio determinado.
 
 1) Crear una carpeta y abrir un terminal dentro de esa carpeta:
 
@@ -48,20 +48,6 @@ git clone https://github.com/g-courses/jappy.classroom.git
 <br />
 
 
-Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` estén en el directorio creado:
-
-<figure>
-    <div align="center" width="80%">
-        <img width="60%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso02-02.png" alt=""/>
-        <br />
-        <figure-caption>Figura 1.2.2b Verificación de los archivos de configuración del ambiente de desarrollo.</figure-caption>
-    </div>    
-</figure>
-
-<br />
-
-</details>
-
 ## 2) Uso del contenedor con Jupyter Lab
 
 <details>
@@ -69,19 +55,7 @@ Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` est�
 
 En este caso, el inicio y apagado del contenedor se realiza a través de la plataforma `Docker Compose`. Una vez que el contenedor se inicia, la herramientas de desarrollo se acceder a través de un servidor Jupyter Lab.
 
-Partiendo del paso 2) de la sección 1.2), abra un terminal en la carpeta `jappy.classroom`.
-
-<figure>
-     <div align="center" width="80%">
-        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter01.png" alt=""/>
-        <br />
-        <figure-caption>Figura 2.1 Terminal abierto en la carpeta jappy.classroom del repositorio clonado en el punto 1.2).</figure-caption>
-    </div>
-</figure>
-
-<br />
-
-Luego, inicie el contenedor con el siguiente comando:
+Partiendo del paso 2) de la sección 1.2), abra un terminal en la carpeta `jappy.classroom`. Luego, inicie el contenedor con el siguiente comando:
 
 ```
 docker compose up -d
@@ -127,78 +101,7 @@ docker compose down
 
 </details>
 
-
-## 3) Uso del contenedor con VS Code
-
-<details>
-<summary>Mostrar</summary>
-
-En este caso, el software `VS Code` inicia el contenedor revisando el contenido del archivo `.devcontainer.json` y `docker-compose.yml`.
-
-1) En el explorador de archivos, seleccione `Abrir con VS Code` en el menú contextual de la carpeta `codes_examples`.
-
-<figure>
-     <div align="center" width="80%">
-        <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso03.png" alt=""/>
-        <br />
-        <figure-caption>Figura 3.1 Selección opción "Abrir con VS Code" en el caso de MacOSX.</figure-caption>
-    </div>
-</figure>
-
-<br />
-
-
-2) Una vez que `VS Code` se ejecute, mostrará un aviso como el de la Figura 3.2. Seleccione **Volver a abrir en el contenedor**.
-
-<figure>
-    <div align="center" width="80%">
-        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso04.png" alt=""/>
-        <br />
-        <figure-caption>Figura 3.2 VS Code avisa que encontró una configuración de un contenedor de desarrollo, por lo que es necesario abrir nuevamente la carpeta con esta opción.</figure-caption>
-    </div>
-</figure>
-
-<br />
-
-3) Si el aviso anterior desaparece, entonces seleccione el complemento "Explorador remoto" y abra la carpeta en el contenedor de desarrollo de la asignatura.
-
-<figure>
-    <div align="center" width="80%">
-    <img width="80%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso05.png" alt=""/>
-    <br />
-    <figure-caption>Figura 3.3 Abrir la carpeta en un contenedor de desarrollo. Esta opción abrirá y ejectura el contenedor de desarrollo de la asignatura.</figure-caption>
-    </div>
-</figure>
-
-<br />
-
-4) Una vez realizado el paso 2 ó 3, `VS Code` pasa por distinto estados, tal como muestran en la Figura 3.4. El primer paso la primera vez se puede demorar debido a que tiene que bajar la imagen del contenedor, cuyo tamaño es de aproximadamente 10 GB.
-
-<figure>
-    <div align="center" width="80%">
-        <img width="60%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso06.png" alt=""/>
-        <br />
-        <figure-caption>Figura 3.4 En la esquina inferior derecha VS Code muestra el estado de preparación del ambiente de desarrollo.</figure-caption>
-    </div>
-</figure>
-
-<br />
-
-5) Una vez que la imagen está configurada, `VS Code` tendrá una apariencia similar a la que se muestra en la Figura 3.5.
-
-<figure>
-    <div align="center" width="100%">
-        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/paso07.png" alt=""/>
-        <br />
-        <figure-caption>Figura 3.5 Ambiente de desarrollo instalado con éxito. En la sección *WORKSPACE* debe estar las carpetas que se localizan dentro de la carpeta `workpace` en el host.</figure-caption>
-    </div>
-</figure>
-
-<br />
-
-</details>
-
-## 4) Prueba de funcionamiento del contenedor con Jupyter Lab
+## 3) Prueba de funcionamiento del contenedor con Jupyter Lab
 
 <details>
 <summary>Mostrar</summary>
@@ -223,35 +126,7 @@ Finalmente, presione `Ejecutar todo` (botón `P` en la Figura 4.1. El cuaderno J
 </details>
 
 
-## 5) Prueba de funcionamiento del contenedor con VS Code
-
-<details>
-<summary>Mostrar</summary>
-
-El contenedor de desarrollo tiene todo lo necesario para el desarrollo de la asignatura: compilador de `C++` y `Java` e intérprete de `Python`. Además, tiene los complementos de `VS Code` para facilitar la codificación en estos lenguajes. Se debe destacar que **no es necesario que estas herramientas estén instaladas en su computador**. Esto ya está resuelto a nivel del contenedor de desarrollo.
-
-1) Seleccione la carpeta `notebook-examples` y luego el archvo `python_nb.ipynb`, tal como se muestra en la Figura 5.1.
-
-<figure>
-    <div align="center" width="80%">
-        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/func01.png" alt=""/>
-        <br />
-        <figure-caption>Figura 5.1 Selección de carpetas en el contenedor de desarrollo.</figure-caption>
-    </div>
-</figure>
-
-<br />
-
-2) Para ejecutar el notebook, es necesario seleccionar un kernel apropiado. Se debe recordar que se debe seleccionar uno que **esté instalado en el contenedor**.
-
-
-3) Finalmente, presione `Ejecutar todo`. El cuaderno Jupyter debe mostrar un mensaje `Hola mundo`, un grafico sencillo y un diagrama UML. Si lo anterior se cumple, el servidor Jupyter está operando y su ambiente de desarrollo esta listo.
-
->**Nota** Debido a que el contenedor iniciado a través de `VS Code` queda asociado al puerto `8888/tcp`, no pueden exister simultáneamente dos contenedores.
-
-</details>
-
-## 6) Selección de kernel
+## 5) Selección de kernel
 
 <details>
 <summary>Mostrar</summary>
@@ -294,35 +169,7 @@ Una vez finalizado esto pasos, los otros kernels se pueden seleccionar escogiend
 
 </details>
 
-## Anexos
-
-## A) Arquitectura de desarrollo
-
-<details>
-<summary>Mostrar</summary>
-
-La arquitectura que se desarrolló tiene por objetivo permitir a las personas que están tomando el ramo de Programación II tengan un ambiente de desarrollo coherente, de uso personal y que no efecte la calidad de las entregas de las tareas. Además, permite repasar conceptos y realizar ejercicios de programación.
-
-La arquitectura de desarrollo se muestra en la Figura A1. Consiste en dos grandes bloques, representados por el Sistema Operatio nativo del computador, que se denomina **Sistema Operativo anfitrión** y un Sistema Operativo que se carga sobre este último, llamado **Sistema Operativo invitado**. En el lado del anfitrión, se utiliza el programa de desarrollo `VS Code` y del sistema de virtualización `Docker`. Cuando se abre la carpeta donde reside el proyecto a través de VS Code, este programa busca un archivo de configuración con nombre `.devcontainer.json`. Si este archivo existe, llama a la extensión `DevContainers` (1). Esta extensión revisa la estructura y sintaxis de este archivo y si no tiene errores, invoca a Docker para que ejecute la imagen que se especifica en el archivo de configuración (2). La ejecución de una imagen en el sistema Docker implica que se genera un `contenedor` que ejecuta un sistema operativo en particular (3). En este caso, se levanta un Sistema Operativo Linux Ubuntu 20.04. Si bien no es la última versión de esta distribución, utilizarla no afecta el objetivo del ambiente de desarrollo.
-
-Una vez que el Sistema Operativo del contenedor está operativo, el sistema Docker implementa un sistema que permite acceder a los archivos de la carpeta que se abrió para dar inicio al paso (1). Estas referencias permiten que el Sistema Operativo invitado pueda acceder a los archivos que están en el anfitrión (4).
-
-Luego, el programa `VS Code` que se ejecuta en el anfitrión, inicia el proceso `VS Code server` en el Sistema Operativo invitado (5). Este servidor permite acceder a los archivos del proyecto, editarlo, modificarlos, crear otros archivos, ejecutarlos con las **Herramientas de desarrollo Nativas** que ya están instaladas en el contenedor. etc. El sistema Docker y el proceso VS Code Server permiten mantener la coherencia de los archivos.
-
-
-<figure>
-    <div align="center" width="100%">
-        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/arq02.png" alt=""/>
-        <br />
-        <figure-caption>Figura A1. Arquitectura de desarrollo basada en VS Code y Docker.
-        <figure-caption>
-    </div>
-</figure>
-
-
-</details>
-
-## B) Sofware instaladado (2025-19-01)
+## Anexo: Sofware instaladado (2025-19-01)
 
 <details>
 <summary>Mostrar</summary>
