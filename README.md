@@ -8,33 +8,10 @@
 
 ### 1.1) Software base
 
-Los ejemplos y las tareas de la asignatura se realizarán utilizando `VS Code` como herramienta de desarrollo y Docker como tecnología de infraestructura. Para lograr esto, en su computador deberá instalar:
+Los ejemplos y las tareas de la asignatura se realizarán utilizando `Jupyter Notebook` como herramienta de desarrollo y Docker como tecnología de infraestructura. Para lograr esto, en su computador deberá instalar:
 
 * [Docker desktop](https://docs.docker.com/get-docker/)
-* [VS Code](https://code.visualstudio.com). Se debe instalar el plugin [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 * [GitHub CLI](https://github.com/cli/cli#installation) *(Opcional)*
-
-
-**Observación**: Se recomienda que en la instalación de `VS Code`, se seleccione la opción **Agregar opción Abrir con VS Code** a archivos y directorios. Esta opción está sólo disponible en forma nativa para la versión de Windows. Si utiliza MacOSX, deberá seguir las instrucciones que se detallan a continuación.
-
-><details>
-><summary>Opción "Abrir en VS Code" en MacOSX</summary>
->
->- Abrir Automator
->- Crear un nuevo documento
->- Seleccionar "Acción rápida"
->- Configura "FLujo de trabajo recibe el actual" a `archivos o carpetas` en `cualquier aplicaciòn`
->- Agregar la acción `Ejecutar el script shell` 
->- configurar "Shell" al que utilizan normalmente (p.e. `/bin/bash`)
->- Configurar "Pasar datos de entrada" a `como argumentos`
->- En la sección del código del script, escribir:
-><pre>
->   for f in "$@"; do
->     open -a 'Visual Studio Code' "$@"
->   done
-></pre>
->- Salvar como  `Abrir en VS Code`
-></details>
 
 
 ### 1.2) Instalación del contenedor de desarrollo 
