@@ -8,7 +8,7 @@ services:
                                # Si está comentado, docker asignará un contenedor distinto por cada
                                # carpeta de trabajo. 
     
-    image: gastudil/courses:jappy-latest
+    image: gastudil/courses:jappy-latest-2026030701
     hostname: dev-jappy
     ports:
       - 8888:8888
