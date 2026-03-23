@@ -107,13 +107,13 @@ docker compose down
 <details>
 <summary>Mostrar</summary>
 
-Ingrese al directorio `workspace/notebook-examples` y seleccione el archivo `python_nb.ipynb`.
+Ingrese al directorio `workspace/notebook-examples/python` y seleccione el archivo `hola_mundo-python.ipynb`.
 
 <figure>
      <div align="center" width="80%">
         <img width="100%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter04.png" alt=""/>
         <br />
-        <figure-caption>Figura 4.1 Cuaderno Jupyter de prueba.</figure-caption>
+        <figure-caption>Figura 4.1 Cuaderno Jupyter de prueba (puede variar).</figure-caption>
     </div>
 </figure>
 
